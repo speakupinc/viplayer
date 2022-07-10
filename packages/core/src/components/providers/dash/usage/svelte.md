@@ -10,7 +10,7 @@
 </Player>
 
 <script lang="ts">
-  import { Player, Dash } from '@vime/svelte';
+  import { Player, Dash } from '@viplayer/svelte';
 
   /**
    * @see https://github.com/Dash-Industry-Forum/dash.js.

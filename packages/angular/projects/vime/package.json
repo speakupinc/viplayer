@@ -1,5 +1,5 @@
 {
-  "name": "@vime/angular",
+  "name": "@viplayer/angular",
   "version": "0.0.0",
   "description": "Angular bindings for the Vime media player.",
   "license": "MIT",
@@ -25,7 +25,7 @@
     "postinstall": "node ./.scripts/validate.cjs"
   },
   "peerDependencies": {
-    "@vime/core": "^5.0.0",
+    "@viplayer/core": "^5.0.0",
     "@angular/common": "^11.0.4",
     "@angular/core": "^11.0.4",
     "rxjs": "^6.6.2"
@@ -34,7 +34,7 @@
     "tslib": "^2.0.0"
   },
   "devDependencies": {
-    "@vime/core": "^5.0.0",
+    "@viplayer/core": "^5.0.0",
     "rxjs": "^6.6.2"
   },
   "publishConfig": {

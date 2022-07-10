@@ -7,7 +7,7 @@ import {
   WritableProps,
   usePlayerContext as useVimeContext,
   isWritableProp,
-} from '@vime/core';
+} from '@viplayer/core';
 
 /**
  * Finds and returns the closest ancestor player element to the given `el`.

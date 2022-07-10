@@ -53,7 +53,7 @@ values={[
 
 ```tsx {12} title="Player.tsx"
 import React from 'react';
-import { Player, DefaultUi, DefaultControls } from '@vime/react';
+import { Player, DefaultUi, DefaultControls } from '@viplayer/react';
 
 function Player() {
   return (
@@ -88,7 +88,7 @@ function Player() {
 </template>
 
 <script>
-  import { Player, DefaultUi, DefaultControls } from '@vime/vue';
+  import { Player, DefaultUi, DefaultControls } from '@viplayer/vue';
 
   export default {
     components: {
@@ -116,7 +116,7 @@ function Player() {
 </Player>
 
 <script lang="ts">
-  import { Player, DefaultUi, DefaultControls } from '@vime/svelte';
+  import { Player, DefaultUi, DefaultControls } from '@viplayer/svelte';
 </script>
 ```
 
@@ -249,7 +249,7 @@ import {
   MuteControl,
   PlaybackControl,
   TimeProgress,
-} from '@vime/react';
+} from '@viplayer/react';
 
 function Player() {
   return (
@@ -319,7 +319,7 @@ function Player() {
     MuteControl,
     PlaybackControl,
     TimeProgress,
-  } from '@vime/vue';
+  } from '@viplayer/vue';
 
   export default {
     components: {
@@ -380,7 +380,7 @@ function Player() {
     MuteControl,
     PlaybackControl,
     TimeProgress,
-  } from '@vime/svelte';
+  } from '@viplayer/svelte';
 </script>
 
 <style>

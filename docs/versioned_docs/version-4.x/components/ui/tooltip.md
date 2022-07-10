@@ -60,7 +60,7 @@ import {
   VimeControls,
   VimeControl,
   VimeTooltip,
-} from '@vime/react';
+} from '@viplayer/react';
 
 function Example() {
   return (
@@ -105,7 +105,7 @@ function Example() {
     VimeControls,
     VimeControl,
     VimeTooltip,
-  } from '@vime/vue';
+  } from '@viplayer/vue';
 
   export default {
     components: {
@@ -143,7 +143,7 @@ function Example() {
     VimeControls,
     VimeControl,
     VimeTooltip,
-  } from '@vime/svelte';
+  } from '@viplayer/svelte';
 </script>
 ```
 

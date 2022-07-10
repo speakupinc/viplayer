@@ -34,7 +34,7 @@ values={[
 <TabItem value="js">
 
 ```js
-import { Player, ActionDisplay, Keyboard, Tooltips } from '@vime-js/complete';
+import { Player, ActionDisplay, Keyboard, Tooltips } from '@viplayer-js/complete';
 
 const target = document.getElementById('player-target');
 
@@ -54,7 +54,7 @@ const player = new Player({
 <Player {plugins} bind:this="{player}" />
 
 <script>
-  import { Player, ActionDisplay, Keyboard, Tooltips } from '@vime-js/complete';
+  import { Player, ActionDisplay, Keyboard, Tooltips } from '@viplayer-js/complete';
 
   let player;
 
@@ -81,7 +81,7 @@ values={[
 <TabItem value="js">
 
 ```js
-import { ActionDisplay, Keyboard, Tooltips } from '@vime-js/complete';
+import { ActionDisplay, Keyboard, Tooltips } from '@viplayer-js/complete';
 
 // ...
 
@@ -110,7 +110,7 @@ pluginsManager
 <Player on:mount="{onPlayerMount}" bind:this="{player}" />
 
 <script>
-  import { Player, ActionDisplay, Keyboard, Tooltips } from '@vime-js/complete';
+  import { Player, ActionDisplay, Keyboard, Tooltips } from '@viplayer-js/complete';
 
   let player;
 
@@ -177,7 +177,7 @@ player.$on('mount', () => {
 <Player {plugins} on:mount="{onPlayerMount}" bind:this="{player}" />
 
 <script>
-  import { Player, Keyboard } from '@vime-js/complete';
+  import { Player, Keyboard } from '@viplayer-js/complete';
 
   let player;
 
@@ -206,7 +206,7 @@ values={[
 <TabItem value="js">
 
 ```js
-import { PlayerEvent, Keyboard } from '@vime-js/complete';
+import { PlayerEvent, Keyboard } from '@viplayer-js/complete';
 
 // ...
 
@@ -235,7 +235,7 @@ player.$on(PlayerEvent.PLUGIN_DESTROY, e => {
 <Player {plugins} on:mount="{onPlayerMount}" bind:this="{player}" />
 
 <script>
-  import { Player, Keyboard } from '@vime-js/complete';
+  import { Player, Keyboard } from '@viplayer-js/complete';
 
   let player;
   let registry;

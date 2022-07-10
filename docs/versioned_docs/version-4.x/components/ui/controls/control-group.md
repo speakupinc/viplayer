@@ -67,7 +67,7 @@ import {
   VimeScrubberControl,
   VimePlaybackControl,
   VimeVolumeControl,
-} from '@vime/react';
+} from '@viplayer/react';
 
 function Example() {
   return (
@@ -122,7 +122,7 @@ function Example() {
     VimeScrubberControl,
     VimePlaybackControl,
     VimeVolumeControl,
-  } from '@vime/vue';
+  } from '@viplayer/vue';
 
   export default {
     components: {
@@ -169,7 +169,7 @@ function Example() {
     VimeVolumeControl,
     VimeScrubberControl,
     VimeControlGroup,
-  } from '@vime/svelte';
+  } from '@viplayer/svelte';
 </script>
 ```
 

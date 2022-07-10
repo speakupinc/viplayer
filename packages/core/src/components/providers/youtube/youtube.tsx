@@ -219,6 +219,7 @@ export class YouTube implements MediaProvider<HTMLVmEmbedElement> {
     return {
       enablejsapi: 1,
       cc_lang_pref: this.language,
+      cc_load_policy: 0,
       hl: this.language,
       fs: this.showFullscreenControl ? 1 : 0,
       controls: this.controls ? 1 : 0,

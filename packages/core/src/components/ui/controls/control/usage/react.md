@@ -1,6 +1,6 @@
 ```tsx {3,24-33}
 import React, { useMemo, useRef } from 'react';
-import { Control, Icon, Tooltip, usePlayerContext } from '@vime/react';
+import { Control, Icon, Tooltip, usePlayerContext } from '@viplayer/react';
 
 function PlaybackControl() {
   const ref = useRef(null);

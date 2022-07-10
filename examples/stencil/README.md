@@ -1,7 +1,7 @@
-# @vime/stencil-example
+# @viplayer/stencil-example
 
 This example was bootstrapped using the [`stencil`](https://stenciljs.com/docs/getting-started) NPM
-starter, and demonstrates how to setup Vime with Stencil via the `@vime/core` package. The main files
+starter, and demonstrates how to setup Vime with Stencil via the `@viplayer/core` package. The main files
 to look at are:
 
 - [`src/index.ts`](./src/index.ts): Shows how to simply import the player library.

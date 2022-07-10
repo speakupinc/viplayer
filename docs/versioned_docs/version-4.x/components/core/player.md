@@ -64,7 +64,7 @@ values={[
 
 ```tsx {2,31-43}
 import React, { useState, useRef } from 'react';
-import { VimePlayer, VimeUi } from '@vime/react';
+import { VimePlayer, VimeUi } from '@viplayer/react';
 
 function Example() {
   const player = useRef<HTMLVimePlayerElement>(null);
@@ -134,7 +134,7 @@ function Example() {
 </template>
 
 <script>
-  import { VimePlayer, VimeUi } from '@vime/vue';
+  import { VimePlayer, VimeUi } from '@viplayer/vue';
 
   export default {
     components: {
@@ -198,7 +198,7 @@ function Example() {
 
 ```html {2}
 <script lang="ts">
-  import { VimePlayer, VimeUi, usePlayerStore } from '@vime/svelte';
+  import { VimePlayer, VimeUi, usePlayerStore } from '@viplayer/svelte';
 
   let player: VimePlayer;
   let currentTime = 0;
@@ -305,7 +305,7 @@ class Example {
 
 ```ts title="example.ts"
 import { ViewChild } from '@angular/core';
-import { VimePlayer } from '@vime/angular';
+import { VimePlayer } from '@viplayer/angular';
 
 class Example {
   @ViewChild('player') player!: VimePlayer;

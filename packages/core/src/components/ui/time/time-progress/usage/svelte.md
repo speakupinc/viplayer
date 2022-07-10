@@ -2,6 +2,6 @@
 <TimeProgress separator="/" />
 
 <script lang="ts">
-  import { TimeProgress } from '@vime/svelte';
+  import { TimeProgress } from '@viplayer/svelte';
 </script>
 ```

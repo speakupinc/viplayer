@@ -3,7 +3,7 @@ title: Svelte Integration
 sidebar_label: Svelte
 ---
 
-If you're using the `@vime-js/complete` package inside Svelte then you'll need to do a little extra
+If you're using the `@viplayer-js/complete` package inside Svelte then you'll need to do a little extra
 setting up. For all other packages you don't need to do anything special, compile it the same as you'd
 compile any other Svelte component.
 

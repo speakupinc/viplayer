@@ -4,7 +4,7 @@
 		Video, 
 		DefaultUi,
 		usePlayerStore,
-	} from '@vime/svelte';
+	} from '@viplayer/svelte';
 
 	// Custom UI component.
 	import TapSidesToSeek from './TapSidesToSeek.svelte';

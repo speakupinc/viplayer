@@ -8,7 +8,7 @@ import {
   Submenu,
   MenuRadio,
   MenuRadioGroup,
-} from '@vime/react';
+} from '@viplayer/react';
 
 const CustomSettingsPlayer = () => {
   const [value, setValue] = useState('1');

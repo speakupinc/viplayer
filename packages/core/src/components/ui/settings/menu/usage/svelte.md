@@ -18,7 +18,7 @@
 
 ```html {2}
 <script lang="ts">
-  import { Player, Ui, Menu } from '@vime/svelte';
+  import { Player, Ui, Menu } from '@viplayer/svelte';
 
   let isMenuActive = false;
 

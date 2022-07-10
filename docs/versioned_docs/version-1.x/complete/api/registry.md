@@ -21,7 +21,7 @@ Each `id` is unique so it can only be registered once, unless it is deregistered
 **Constructor:** `new Registry(id: string, validator: ((id: string, value: any) => boolean)?)`
 
 ```js
-import { Registry } from '@vime-js/complete';
+import { Registry } from '@viplayer-js/complete';
 
 const id = 'myRegistry';
 

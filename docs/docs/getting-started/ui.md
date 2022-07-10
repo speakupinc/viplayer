@@ -54,7 +54,7 @@ values={[
 
 ```tsx {24-26} title="Player.tsx"
 import React from 'react';
-import { Player, Video, DefaultUi } from '@vime/react';
+import { Player, Video, DefaultUi } from '@viplayer/react';
 
 function Player() {
   return (
@@ -112,7 +112,7 @@ function Player() {
 </template>
 
 <script>
-  import { Player, Video, DefaultUi } from '@vime/vue';
+  import { Player, Video, DefaultUi } from '@viplayer/vue';
 
   export default {
     components: {
@@ -150,7 +150,7 @@ function Player() {
 </Player>
 
 <script lang="ts">
-  import { Player, Video, DefaultUi } from '@vime/svelte';
+  import { Player, Video, DefaultUi } from '@viplayer/svelte';
 </script>
 ```
 
@@ -237,7 +237,7 @@ Remember to load the default player theme or you might see something you regret 
 ```html
 <link
   rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/@vime/core@^5/themes/default.css"
+  href="https://cdn.jsdelivr.net/npm/@viplayer/core@^5/themes/default.css"
 />
 ```
 
@@ -315,7 +315,7 @@ You can view the custom `TapSidesToSeek` component [here](https://github.com/vim
 
 ```tsx {19-26} title="Player.tsx"
 import React from 'react';
-import { Player, Video, Ui, ClickToPlay, Spinner, Poster } from '@vime/react';
+import { Player, Video, Ui, ClickToPlay, Spinner, Poster } from '@viplayer/react';
 import TapSidesToSeek from './TapSidesToSeek';
 
 function Player() {
@@ -380,7 +380,7 @@ You can view the custom `TapSidesToSeek` component [here](https://github.com/vim
 </template>
 
 <script>
-  import { Player, Video, Ui, ClickToPlay, Spinner, Poster } from '@vime/vue';
+  import { Player, Video, Ui, ClickToPlay, Spinner, Poster } from '@viplayer/vue';
   import TapSidesToSeek from './TapSidesToSeek.vue';
 
   export default {
@@ -436,7 +436,7 @@ You can view the custom `TapSidesToSeek` component [here](https://github.com/vim
     ClickToPlay,
     Spinner,
     Poster,
-  } from '@vime/svelte';
+  } from '@viplayer/svelte';
   import TapSidesToSeek from './TapSidesToSeek.svelte';
 </script>
 ```

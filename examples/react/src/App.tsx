@@ -1,12 +1,12 @@
 import React, { useEffect, useRef } from 'react';
 import './App.css';
-import { Player, Video, DefaultUi, usePlayerContext } from '@vime/react';
+import { Player, Video, DefaultUi, usePlayerContext } from '@viplayer/react';
 
 // Default theme.
-import '@vime/core/themes/default.css';
+import '@viplayer/core/themes/default.css';
 
 // Optional light theme (extends default).
-// import '@vime/core/themes/light.css';
+// import '@viplayer/core/themes/light.css';
 
 // Custom UI component.
 import TapSidesToSeek from './TapSidesToSeek';

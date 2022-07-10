@@ -4,7 +4,7 @@ import {
   findPlayer,
   usePlayerContext,
   createDispatcher,
-} from '@vime/core';
+} from '@viplayer/core';
 import { ElementRef, Injectable } from '@angular/core';
 
 @Injectable()

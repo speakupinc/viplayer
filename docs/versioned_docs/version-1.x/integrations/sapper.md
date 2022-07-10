@@ -3,7 +3,7 @@ title: Sapper Integration
 sidebar_label: Sapper
 ---
 
-If you're using `@vime-js/complete` then you'll need to do a little bit of setting up. All the instructions
+If you're using `@viplayer-js/complete` then you'll need to do a little bit of setting up. All the instructions
 can be found in the [Svelte integration guide](./svelte.md). Just remember to include the preprocessor for
 both the client and server in your `rollup.config.js`.
 

@@ -8,7 +8,7 @@ sidebar_label: Notes
 - When the player is `paused`, `seeking` and `seeked` are fired at the same time (in order), because there is
   no updates between the events from the embed.
 
-- Vime disables cookies by default for YouTube. If you're using `@vime-js/lite` you can enable them via the `cookies`
+- Vime disables cookies by default for YouTube. If you're using `@viplayer-js/lite` you can enable them via the `cookies`
   prop, otherwise you can enable it via `player.provider.cookies`.
 
 - Enabling/disabling the native controls forces the player to reload. We set the player back to the

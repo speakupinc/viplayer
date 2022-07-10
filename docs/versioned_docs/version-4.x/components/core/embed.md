@@ -53,7 +53,7 @@ values={[
 
 ```tsx {2,11-17}
 import React from 'react';
-import { VimeEmbed } from '@vime/react';
+import { VimeEmbed } from '@viplayer/react';
 
 function Example() {
   const onMessage = (event: CustomEvent<any>) => {
@@ -89,7 +89,7 @@ function Example() {
 </template>
 
 <script>
-  import { VimeEmbed } from '@vime/vue';
+  import { VimeEmbed } from '@viplayer/vue';
 
   export default {
     components: {
@@ -129,7 +129,7 @@ function Example() {
 
 ```html {2}
 <script lang="ts">
-  import { VimeEmbed } from '@vime/svelte';
+  import { VimeEmbed } from '@viplayer/svelte';
 
   const params = {
     autoplay: 1,

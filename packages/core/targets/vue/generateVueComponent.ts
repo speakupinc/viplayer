@@ -18,7 +18,7 @@ export const generateVueComponent = (
 ${ignoreChecks()}
 import Vue, { PropOptions } from 'vue';
 import { method, render } from '../lib';
-import type { Components } from '@vime/core/dist/types';
+import type { Components } from '@viplayer/core/dist/types';
 ${importAllDepdencies(cmpMeta, components)}
 ${defineAllDependencies(cmpMeta, components)}
 

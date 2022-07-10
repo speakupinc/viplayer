@@ -17,7 +17,7 @@
 ```
 
 ```ts title="example.ts"
-import { MenuRadio } from '@vime/angular';
+import { MenuRadio } from '@viplayer/angular';
 
 class Example {
   value = '1';

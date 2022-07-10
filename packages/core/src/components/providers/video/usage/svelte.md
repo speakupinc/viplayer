@@ -20,6 +20,6 @@
 </Player>
 
 <script lang="ts">
-  import { Player, Video } from '@vime/svelte';
+  import { Player, Video } from '@viplayer/svelte';
 </script>
 ```

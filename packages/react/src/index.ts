@@ -1,4 +1,4 @@
-export { ViewType, Provider, watchComponentRegistry } from '@vime/core';
+export { ViewType, Provider, watchComponentRegistry } from '@viplayer/core';
 
 export type {
   PlayerProp,
@@ -10,7 +10,7 @@ export type {
   Translation,
   AdapterHost,
   MediaProviderAdapter,
-} from '@vime/core';
+} from '@viplayer/core';
 
 export * from './components';
 export * from './hooks';

@@ -13,7 +13,7 @@ export const config: Config = {
       baseUrl: 'https://myapp.local/',
       copy: [
         {
-          src: '../node_modules/@vime/core/icons',
+          src: '../node_modules/@viplayer/core/icons',
           dest: 'icons',
         },
       ],

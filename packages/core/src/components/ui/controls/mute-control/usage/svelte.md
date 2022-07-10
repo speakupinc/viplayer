@@ -10,6 +10,6 @@
 </Player>
 
 <script lang="ts">
-  import { Player, Ui, Controls, MuteControl } from '@vime/svelte';
+  import { Player, Ui, Controls, MuteControl } from '@viplayer/svelte';
 </script>
 ```

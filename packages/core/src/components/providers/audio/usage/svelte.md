@@ -8,6 +8,6 @@
 </Player>
 
 <script lang="ts">
-  import { Player, Audio } from '@vime/svelte';
+  import { Player, Audio } from '@viplayer/svelte';
 </script>
 ```

@@ -12,6 +12,6 @@
 
 ```html {2}
 <script lang="ts">
-  import { Player, Ui, Controls } from '@vime/svelte';
+  import { Player, Ui, Controls } from '@viplayer/svelte';
 </script>
 ```

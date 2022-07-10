@@ -4,8 +4,8 @@
   "lib": {
     "entryFile": "src/public-api.ts",
     "umdModuleIds": {
-      "@vime/core": "Vime"
+      "@viplayer/core": "Vime"
     }
   },
-  "allowedNonPeerDependencies": ["@vime/core"]
+  "allowedNonPeerDependencies": ["@viplayer/core"]
 }

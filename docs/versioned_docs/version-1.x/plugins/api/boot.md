@@ -36,7 +36,7 @@ values={[
 <TabItem value="basic">
 
 ```js
-import { Player, Boot } from '@vime-js/complete';
+import { Player, Boot } from '@viplayer-js/complete';
 
 // ...
 
@@ -53,7 +53,7 @@ const player = new Player({
 <TabItem value="advanced">
 
 ```js
-import { Player, Boot } from '@vime-js/complete';
+import { Player, Boot } from '@viplayer-js/complete';
 
 // ...
 
@@ -93,7 +93,7 @@ values={[
 <TabItem value="js">
 
 ```js
-import { Player, Boot } from '@vime-js/complete';
+import { Player, Boot } from '@viplayer-js/complete';
 
 const target = document.getElementById('player-target');
 
@@ -121,7 +121,7 @@ const off = player.$on('mount', () => {
 <Player plugins="{[Boot]}" on:mount="{onPlayerMount}" bind:this="{player}" />
 
 <script>
-  import { Player, Boot } from '@vime-js/complete';
+  import { Player, Boot } from '@viplayer-js/complete';
 
   let player;
 

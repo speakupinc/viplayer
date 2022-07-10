@@ -25,6 +25,6 @@
     VolumeControl,
     ScrubberControl,
     ControlGroup,
-  } from '@vime/svelte';
+  } from '@viplayer/svelte';
 </script>
 ```

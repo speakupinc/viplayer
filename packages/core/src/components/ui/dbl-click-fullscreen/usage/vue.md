@@ -10,7 +10,7 @@
 </template>
 
 <script>
-  import { Player, Ui, DblClickFullscreen } from '@vime/vue';
+  import { Player, Ui, DblClickFullscreen } from '@viplayer/vue';
 
   export default {
     components: {

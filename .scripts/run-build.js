@@ -30,7 +30,7 @@ const watch = process.argv.includes('-w') || process.argv.includes('--watch');
 
 spawn(
   'npm',
-  ['run', watch ? 'build:watch' : 'build', `--workspace=@vime/${pkg}`],
+  ['run', watch ? 'build:watch' : 'build', `--workspace=@viplayer/${pkg}`],
   {
     stdio: 'inherit',
   },

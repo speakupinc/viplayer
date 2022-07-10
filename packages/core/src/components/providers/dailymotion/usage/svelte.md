@@ -5,6 +5,6 @@
 </Player>
 
 <script lang="ts">
-  import { Player, Dailymotion } from '@vime/svelte';
+  import { Player, Dailymotion } from '@viplayer/svelte';
 </script>
 ```

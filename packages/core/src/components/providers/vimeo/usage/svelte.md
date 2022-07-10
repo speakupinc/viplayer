@@ -5,6 +5,6 @@
 </Player>
 
 <script lang="ts">
-  import { Player, Vimeo } from '@vime/svelte';
+  import { Player, Vimeo } from '@viplayer/svelte';
 </script>
 ```

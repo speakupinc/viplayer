@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "@vime/angular": {
+    "@viplayer/angular": {
       "projectType": "library",
       "root": "projects/vime",
       "sourceRoot": "projects/vime/src",
@@ -24,5 +24,5 @@
       }
     }
   },
-  "defaultProject": "@vime/angular"
+  "defaultProject": "@viplayer/angular"
 }

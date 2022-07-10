@@ -24,7 +24,7 @@ values={[
 <TabItem value="basic">
 
 ```js
-import { Player, ActionDisplay } from '@vime-js/complete';
+import { Player, ActionDisplay } from '@viplayer-js/complete';
 
 // ...
 
@@ -41,7 +41,7 @@ const player = new Player({
 <TabItem value="advanced">
 
 ```js
-import { Player, ActionDisplay } from '@vime-js/complete';
+import { Player, ActionDisplay } from '@viplayer-js/complete';
 
 // ...
 

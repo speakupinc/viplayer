@@ -12,7 +12,7 @@
     "allowSyntheticDefaultImports": true,
     "sourceMap": true,
     "baseUrl": ".",
-    "types": ["webpack-env", "@vime/core"],
+    "types": ["webpack-env", "@viplayer/core"],
     "paths": {
       "@/*": ["src/*"]
     },

@@ -12,7 +12,7 @@
 
 ```ts title="playback-control.ts"
 import { Component, ElementRef } from '@angular/core';
-import { Component } from '@vime/angular';
+import { Component } from '@viplayer/angular';
 
 @Component({
   selector: 'playback-control',

@@ -10,7 +10,7 @@
 </template>
 
 <script>
-  import { Slider } from '@vime/vue';
+  import { Slider } from '@viplayer/vue';
 
   export default {
     components: {

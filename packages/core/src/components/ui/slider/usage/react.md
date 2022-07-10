@@ -1,6 +1,6 @@
 ```tsx {2,12-18}
 import React, { useState } from 'react';
-import { Slider } from '@vime/react';
+import { Slider } from '@viplayer/react';
 
 function Example() {
   const [value, setValue] = useState(50);

@@ -1,5 +1,5 @@
 {
-  "name": "@vime/vue-example",
+  "name": "@viplayer/vue-example",
   "version": "5.3.1",
   "private": true,
   "scripts": {
@@ -7,8 +7,8 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
-    "@vime/core": "5.3.1",
-    "@vime/vue": "5.3.1",
+    "@viplayer/core": "5.3.1",
+    "@viplayer/vue": "5.3.1",
     "tslib": "^2.0.1",
     "vue": "^2.6.12",
     "vue-class-component": "^7.2.5",

@@ -20,13 +20,13 @@
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue';
-import { Player, Video, DefaultUi } from '@vime/vue-next';
+import { Player, Video, DefaultUi } from '@viplayer/vue-next';
 
 // Default theme.
-import '@vime/core/themes/default.css';
+import '@viplayer/core/themes/default.css';
 
 // Optional light theme (extends default).
-// import '@vime/core/themes/light.css';
+// import '@viplayer/core/themes/light.css';
 
 // Custom UI Component.
 import TapSidesToSeek from './TapSidesToSeek.vue';

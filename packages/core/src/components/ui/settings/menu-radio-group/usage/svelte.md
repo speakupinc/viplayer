@@ -25,7 +25,7 @@
     Submenu,
     MenuRadioGroup,
     MenuRadio,
-  } from '@vime/svelte';
+  } from '@viplayer/svelte';
 
   let value = '1';
 

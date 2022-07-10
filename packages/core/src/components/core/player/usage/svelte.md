@@ -16,7 +16,7 @@
 
 ```html {2}
 <script lang="ts">
-  import { Player, Ui, usePlayerStore } from '@vime/svelte';
+  import { Player, Ui, usePlayerStore } from '@viplayer/svelte';
 
   let player: Player;
   let currentTime = 0;

@@ -16,10 +16,10 @@ Preview is used to display a thumbnail. If your `src` points to an external prov
 thumbnail is automatically loaded. If you'd like to know how it compares to other options then see
 the [getting started](../welcome/getting-started.md) page.
 
-[package]: https://www.npmjs.com/package/@vime-js/preview
-[version-badge]: https://img.shields.io/npm/v/@vime-js/preview?style=flat-square
-[size]: https://bundlephobia.com/result?p=@vime-js/preview
-[size-badge]: https://img.shields.io/bundlephobia/minzip/@vime-js/preview?label=min%2Bgzip&style=flat-square
+[package]: https://www.npmjs.com/package/@viplayer-js/preview
+[version-badge]: https://img.shields.io/npm/v/@viplayer-js/preview?style=flat-square
+[size]: https://bundlephobia.com/result?p=@viplayer-js/preview
+[size-badge]: https://img.shields.io/bundlephobia/minzip/@viplayer-js/preview?label=min%2Bgzip&style=flat-square
 [license]: https://github.com/vime-js/vime/blob/master/LICENSE
 [license-badge]: https://img.shields.io/github/license/vime-js/vime?color=blue&style=flat-square
 [tweet]: https://twitter.com/intent/tweet?text=Check%20out%20Vime%20%28https%3A%2F%2Fgithub.com%2Fvime-js%2Fvime%29%2C%20it%20makes%20embedding%20and%20using%20media%20players%20for%20the%20web%20simple.%20It%20supports%20Html5%2C%20YouTube%2C%20Dailymotion%2C%20Vimeo%20and%20more%20to%20come%21
@@ -41,7 +41,7 @@ values={[
 <TabItem value="npm">
 
 ```
-npm install @vime-js/preview
+npm install @viplayer-js/preview
 ```
 
 </TabItem>
@@ -49,7 +49,7 @@ npm install @vime-js/preview
 <TabItem value="yarn">
 
 ```
-yarn add @vime-js/preview
+yarn add @viplayer-js/preview
 ```
 
 </TabItem>
@@ -57,7 +57,7 @@ yarn add @vime-js/preview
 <TabItem value="jsdelivr">
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/@vime-js/preview"></script>
+<script src="https://cdn.jsdelivr.net/npm/@viplayer-js/preview"></script>
 ```
 
 </TabItem>
@@ -97,7 +97,7 @@ values={[
 <TabItem value="js">
 
 ```js
-import { Preview } from '@vime-js/preview';
+import { Preview } from '@viplayer-js/preview';
 
 const target = document.getElementById('preview-target');
 
@@ -129,7 +129,7 @@ See the [client-side component API][svelte-client-api] for the complete set of c
 
 <script>
   import { onMount } from 'svelte';
-  import { Preview } from '@vime-js/preview';
+  import { Preview } from '@viplayer-js/preview';
 
   let preview;
 

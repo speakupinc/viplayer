@@ -1,17 +1,17 @@
 {
-  "name": "@vime/angular",
+  "name": "@viplayer/angular",
   "version": "5.3.1",
   "license": "MIT",
   "scripts": {
     "build": "ng build --prod",
-    "build:watch": "ng build @vime/angular --watch",
+    "build:watch": "ng build @viplayer/angular --watch",
     "clean": "rimraf dist projects/vime/src/components projects/vime/src/VimeModule.ts",
     "clean:build": "rimraf dist",
     "prepublishOnly": "node .scripts/prepublish.mjs",
     "ng": "ng"
   },
   "devDependencies": {
-    "@vime/core": "workspace:*",
+    "@viplayer/core": "workspace:*",
     "@angular-devkit/build-angular": "v11-lts",
     "@angular/cli": "v11-lts",
     "@angular/common": "v11-lts",
@@ -29,7 +29,7 @@
     "zone.js": "~0.10.2"
   },
   "peerDependencies": {
-    "@vime/core": "5.3.1"
+    "@viplayer/core": "5.3.1"
   },
   "publishConfig": {
     "access": "public",

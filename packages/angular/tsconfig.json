@@ -12,7 +12,7 @@
     "moduleResolution": "node",
     "outDir": "./dist/out-tsc",
     "paths": {
-      "@vime/angular": ["dist/vime/angular/vime-angular", "dist/vime/angular"]
+      "@viplayer/angular": ["dist/vime/angular/vime-angular", "dist/vime/angular"]
     },
     "sourceMap": true,
     "target": "ES2015"

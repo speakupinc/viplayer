@@ -1,5 +1,5 @@
 import React from 'react';
-import { Player, Video, Ui, ClickToPlay, Spinner, Poster } from '@vime/react';
+import { Player, Video, Ui, ClickToPlay, Spinner, Poster } from '@viplayer/react';
 import { TapSidesToSeek } from './TapSidesToSeek';
 
 const ClickPlayer = () => (

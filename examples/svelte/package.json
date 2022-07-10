@@ -1,5 +1,5 @@
 {
-  "name": "@vime/svelte-example",
+  "name": "@viplayer/svelte-example",
   "version": "5.3.1",
   "private": true,
   "scripts": {
@@ -8,8 +8,8 @@
     "validate": "svelte-check"
   },
   "dependencies": {
-    "@vime/core": "5.3.1",
-    "@vime/svelte": "5.3.1"
+    "@viplayer/core": "5.3.1",
+    "@viplayer/svelte": "5.3.1"
   },
   "devDependencies": {
     "@tsconfig/svelte": "^1.0.10",

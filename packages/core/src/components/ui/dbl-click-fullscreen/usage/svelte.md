@@ -8,6 +8,6 @@
 </Player>
 
 <script lang="ts">
-  import { Player, Ui, DblClickFullscreen } from '@vime/svelte';
+  import { Player, Ui, DblClickFullscreen } from '@viplayer/svelte';
 </script>
 ```

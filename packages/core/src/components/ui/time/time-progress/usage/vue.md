@@ -4,7 +4,7 @@
 </template>
 
 <script>
-  import { TimeProgress } from '@vime/vue';
+  import { TimeProgress } from '@viplayer/vue';
 
   export default {
     components: {

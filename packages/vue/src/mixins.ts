@@ -3,7 +3,7 @@ import {
   PlayerProp,
   usePlayerContext,
   findPlayer,
-} from '@vime/core';
+} from '@viplayer/core';
 
 export const Mixin = (props: PlayerProp[]) => ({
   data() {

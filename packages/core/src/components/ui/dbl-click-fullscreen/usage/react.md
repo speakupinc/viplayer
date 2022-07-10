@@ -1,6 +1,6 @@
 ```tsx {2,10}
 import React from 'react';
-import { Player, Ui, DblClickFullscreen } from '@vime/react';
+import { Player, Ui, DblClickFullscreen } from '@viplayer/react';
 
 function Example() {
   return (

@@ -21,6 +21,6 @@
     VolumeControl,
     ControlSpacer,
     FullscreenControl,
-  } from '@vime/svelte';
+  } from '@viplayer/svelte';
 </script>
 ```

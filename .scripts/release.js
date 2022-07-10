@@ -197,8 +197,8 @@ function updatePackageDeps(pkg, depType, version) {
   if (!deps) return;
   Object.keys(deps).forEach(dep => {
     if (
-      dep.startsWith('@vime') &&
-      packages.includes(dep.replace(/^@vime\//, ''))
+      dep.startsWith('@viplayer') &&
+      packages.includes(dep.replace(/^@viplayer\//, ''))
     ) {
       console.log(
         kleur.yellow(`🦠 ${pkg.name} -> ${depType} -> ${dep}@${version}`),

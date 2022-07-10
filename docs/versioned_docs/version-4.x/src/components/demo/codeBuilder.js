@@ -132,7 +132,7 @@ const providerImports = {
 const importStmt = (opts, lib) =>
   `import { Player, ${providerImports[opts.provider]}${
     opts.showDefaultUi ? ', DefaultUi ' : ' '
-  }} from '@vime/${lib}';`;
+  }} from '@viplayer/${lib}';`;
 
 const reactCode = opts =>
   `

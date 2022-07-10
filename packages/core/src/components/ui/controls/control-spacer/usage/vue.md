@@ -22,7 +22,7 @@
     VolumeControl,
     ControlSpacer,
     FullscreenControl,
-  } from '@vime/vue';
+  } from '@viplayer/vue';
 
   export default {
     components: {

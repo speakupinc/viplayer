@@ -4,6 +4,6 @@
 
 ```html
 <script lang="ts">
-  import { Time } from '@vime/svelte';
+  import { Time } from '@viplayer/svelte';
 </script>
 ```

@@ -43,7 +43,7 @@ values={[
 
 ```tsx {2,5}
 import React from 'react';
-import { VimeTime } from '@vime/react';
+import { VimeTime } from '@viplayer/react';
 
 function Example() {
   return <VimeTime label="Time" seconds={120} />;
@@ -60,7 +60,7 @@ function Example() {
 </template>
 
 <script>
-  import { VimeTime } from '@vime/vue';
+  import { VimeTime } from '@viplayer/vue';
 
   export default {
     components: {
@@ -80,7 +80,7 @@ function Example() {
 
 ```html
 <script lang="ts">
-  import { VimeTime } from '@vime/svelte';
+  import { VimeTime } from '@viplayer/svelte';
 </script>
 ```
 

@@ -46,7 +46,7 @@ values={[
 
 ```tsx {2,14-19}
 import React from 'react';
-import { VimePlayer, VimeDash } from '@vime/react';
+import { VimePlayer, VimeDash } from '@viplayer/react';
 
 function Example() {
   /**
@@ -88,7 +88,7 @@ function Example() {
 </template>
 
 <script>
-  import { VimePlayer, VimeDash } from '@vime/vue';
+  import { VimePlayer, VimeDash } from '@viplayer/vue';
 
   export default {
     components: {
@@ -124,7 +124,7 @@ function Example() {
 </VimePlayer>
 
 <script lang="ts">
-  import { VimePlayer, VimeDash } from '@vime/svelte';
+  import { VimePlayer, VimeDash } from '@viplayer/svelte';
 
   /**
    * @see https://github.com/Dash-Industry-Forum/dash.js.

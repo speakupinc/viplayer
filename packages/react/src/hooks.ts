@@ -5,7 +5,7 @@ import {
   usePlayerContext as useContext,
   findPlayer,
   WritableProps,
-} from '@vime/core';
+} from '@viplayer/core';
 
 const noop = () => {};
 

@@ -54,7 +54,7 @@ values={[
 
 ```tsx {2,10}
 import React from 'react';
-import { VimePlayer, VimeUi, VimeSettings } from '@vime/react';
+import { VimePlayer, VimeUi, VimeSettings } from '@viplayer/react';
 
 function Example() {
   return (
@@ -87,7 +87,7 @@ function Example() {
 </template>
 
 <script>
-  import { VimePlayer, VimeUi, VimeSettings } from '@vime/vue';
+  import { VimePlayer, VimeUi, VimeSettings } from '@viplayer/vue';
 
   export default {
     components: {
@@ -115,7 +115,7 @@ function Example() {
 </VimePlayer>
 
 <script lang="ts">
-  import { VimePlayer, VimeUi, VimeSettings } from '@vime/svelte';
+  import { VimePlayer, VimeUi, VimeSettings } from '@viplayer/svelte';
 </script>
 ```
 

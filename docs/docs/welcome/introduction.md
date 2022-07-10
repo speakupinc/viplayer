@@ -218,14 +218,14 @@ A huge thanks to our sponsors who support open-source projects like Vime.
   />
 </a>
 
-[package]: https://www.npmjs.com/package/@vime/core
-[package-badge]: https://img.shields.io/npm/v/@vime/core
+[package]: https://www.npmjs.com/package/@viplayer/core
+[package-badge]: https://img.shields.io/npm/v/@viplayer/core
 [license]: https://github.com/vime-js/vime/blob/master/LICENSE
 [license-badge]: https://img.shields.io/github/license/vime-js/vime?color=blue
 [semantic-release]: https://github.com/semantic-release/semantic-release
 [semantic-release-badge]: https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg
-[jsdelivr]: https://www.jsdelivr.com/package/npm/@vime/core
-[jsdelivr-badge]: https://data.jsdelivr.com/v1/package/npm/@vime/core/badge?style=rounded
+[jsdelivr]: https://www.jsdelivr.com/package/npm/@viplayer/core
+[jsdelivr-badge]: https://data.jsdelivr.com/v1/package/npm/@viplayer/core/badge?style=rounded
 [release-badge]: https://github.com/vime-js/vime/workflows/Release/badge.svg?branch=master
 [discord]: https://discord.com/invite/7RGU7wvsu9
 [discord-badge]: https://img.shields.io/badge/chat-on%20discord-7389D8

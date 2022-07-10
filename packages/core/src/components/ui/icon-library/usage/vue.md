@@ -11,7 +11,7 @@
 </template>
 
 <script>
-  import { Player, Ui, IconLibrary } from '@vime/vue';
+  import { Player, Ui, IconLibrary } from '@viplayer/vue';
 
   export default {
     data() {

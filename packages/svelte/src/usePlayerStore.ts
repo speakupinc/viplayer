@@ -8,7 +8,7 @@ import {
   WritableProps,
   isWritableProp,
   initialState,
-} from '@vime/core';
+} from '@viplayer/core';
 import { onMount } from 'svelte';
 import { writable, get as unwrap, Writable, Readable } from 'svelte/store';
 
@@ -59,7 +59,7 @@ export const usePlayer = <T extends HTMLElement>(
  * <Player>
  *
  * <script lang="ts">
- *  import { Player } from '@vime/svelte';
+ *  import { Player } from '@viplayer/svelte';
  *
  *  let player;
  *

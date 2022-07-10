@@ -10,7 +10,7 @@
 </template>
 
 <script>
-  import { Embed } from '@vime/vue';
+  import { Embed } from '@viplayer/vue';
 
   export default {
     components: {

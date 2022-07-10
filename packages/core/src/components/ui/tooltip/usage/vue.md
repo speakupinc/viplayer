@@ -14,7 +14,7 @@
 </template>
 
 <script>
-  import { Player, Ui, Controls, Control, Tooltip } from '@vime/vue';
+  import { Player, Ui, Controls, Control, Tooltip } from '@viplayer/vue';
 
   export default {
     components: {

@@ -10,6 +10,6 @@
 </Player>
 
 <script lang="ts">
-  import { Player, Ui, ClickToPlay, FullscreenControl } from '@vime/svelte';
+  import { Player, Ui, ClickToPlay, FullscreenControl } from '@viplayer/svelte';
 </script>
 ```

@@ -7,7 +7,7 @@
 </Player>
 
 <script lang="ts">
-  import { Player, Hls } from '@vime/svelte';
+  import { Player, Hls } from '@viplayer/svelte';
 
   /**
    * @see https://hls-js.netlify.app/api-docs/file/src/config.ts.html.

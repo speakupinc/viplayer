@@ -10,7 +10,7 @@
 
 <script>
   import { defineComponent, ref, computed } from 'vue';
-  import { usePlayerContext, Control, Icon, Tooltip } from '@vime/vue-next';
+  import { usePlayerContext, Control, Icon, Tooltip } from '@viplayer/vue-next';
 
   export default defineComponent({
     name: 'PlaybackControl',

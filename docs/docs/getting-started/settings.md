@@ -52,7 +52,7 @@ values={[
 
 ```tsx {12-14} title="Player.tsx"
 import React from 'react';
-import { Player, DefaultUi, DefaultSettings } from '@vime/react';
+import { Player, DefaultUi, DefaultSettings } from '@viplayer/react';
 
 function Player() {
   return (
@@ -91,7 +91,7 @@ function Player() {
 </template>
 
 <script>
-  import { Player, DefaultUi, DefaultSettings } from '@vime/vue';
+  import { Player, DefaultUi, DefaultSettings } from '@viplayer/vue';
 
   export default {
     components: {
@@ -121,7 +121,7 @@ function Player() {
 </Player>
 
 <script lang="ts">
-  import { Player, DefaultUi, DefaultSettings } from '@vime/svelte';
+  import { Player, DefaultUi, DefaultSettings } from '@viplayer/svelte';
 </script>
 ```
 
@@ -272,7 +272,7 @@ import {
   Submenu,
   MenuRadio,
   MenuRadioGroup,
-} from '@vime/react';
+} from '@viplayer/react';
 
 function Player() {
   const [value, setValue] = useState('1');
@@ -362,7 +362,7 @@ function Player() {
     Submenu,
     MenuRadio,
     MenuRadioGroup,
-  } from '@vime/vue';
+  } from '@viplayer/vue';
 
   export default {
     components: {
@@ -433,7 +433,7 @@ function Player() {
     Submenu,
     MenuRadio,
     MenuRadioGroup,
-  } from '@vime/svelte';
+  } from '@viplayer/svelte';
 
   let value = '1';
 

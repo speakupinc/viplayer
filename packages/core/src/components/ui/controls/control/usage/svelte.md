@@ -13,7 +13,7 @@
 
 ```html {4}
 <script lang="ts">
-  import { usePlayerStore, Control, Icon, Tooltip } from '@vime/svelte';
+  import { usePlayerStore, Control, Icon, Tooltip } from '@viplayer/svelte';
 
   let ref: Control;
 

@@ -56,10 +56,10 @@ some long awaited features.
 
 ```ts
 // Old.
-import { VimePlayer, VimeVideo } from '@vime/react';
+import { VimePlayer, VimeVideo } from '@viplayer/react';
 
 // New.
-import { Player, Video } from '@vime/react';
+import { Player, Video } from '@viplayer/react';
 ```
 
 - **Attributes over classes for styling.** Most components including the player were styled based
@@ -83,7 +83,7 @@ import { Player, Video } from '@vime/react';
 
 - The `vime-icons` component has been removed and replaced by `vm-icon-library`.
 
-- The icons folder in the root `@vime/core` package has been moved. Icons are now kept in sets
+- The icons folder in the root `@viplayer/core` package has been moved. Icons are now kept in sets
   under the `icons` folder such as `icons/vime` and `icons/material`. If you were loading these
   files from the CDN for any reason then simply point to the new URL.
 

@@ -17,7 +17,7 @@
 * **core:** prevent media embeds from autoplaying without being set ([f0d9692](https://github.com/vime-js/vime/commit/f0d9692fdca9b4be31cdc0b9f9902debcfb62d63)), closes [#143](https://github.com/vime-js/vime/issues/143)
 * **core:** vimeo provider posters broken ([f4e66e0](https://github.com/vime-js/vime/commit/f4e66e08652df22be2aa85a98b5a6fb93b94098f)), closes [#254](https://github.com/vime-js/vime/issues/254)
 * **core:** vimeo with native controls is broken ([64a658e](https://github.com/vime-js/vime/commit/64a658e283e7334f0696cf48a8313e2f889ebac0))
-* move `@vime/core` to peer deps ([9a18ab0](https://github.com/vime-js/vime/commit/9a18ab0842d50bd4e640f51702400c49fe3da5f3))
+* move `@viplayer/core` to peer deps ([9a18ab0](https://github.com/vime-js/vime/commit/9a18ab0842d50bd4e640f51702400c49fe3da5f3))
 * **svelte:** make `class` and `style` optional ([600818a](https://github.com/vime-js/vime/commit/600818a536b872eeba4a86e8c28bbc34041534dd))
 
 

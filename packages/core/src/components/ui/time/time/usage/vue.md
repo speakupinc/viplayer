@@ -4,7 +4,7 @@
 </template>
 
 <script>
-  import { Time } from '@vime/vue';
+  import { Time } from '@viplayer/vue';
 
   export default {
     components: {

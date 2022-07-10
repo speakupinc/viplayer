@@ -2,6 +2,6 @@
 <EndTime />
 
 <script lang="ts">
-  import { EndTime } from '@vime/svelte';
+  import { EndTime } from '@viplayer/svelte';
 </script>
 ```

@@ -7,7 +7,7 @@
 </template>
 
 <script>
-  import { Player, Youtube } from '@vime/vue';
+  import { Player, Youtube } from '@viplayer/vue';
 
   export default {
     components: {

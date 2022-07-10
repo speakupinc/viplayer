@@ -10,7 +10,7 @@
 
 ```html {2}
 <script lang="ts">
-  import { Embed } from '@vime/svelte';
+  import { Embed } from '@viplayer/svelte';
 
   const params = {
     autoplay: 1,

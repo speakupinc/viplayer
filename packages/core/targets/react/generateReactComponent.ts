@@ -20,7 +20,7 @@ export const generateReactComponent = (
 ${ignoreChecks()}
 import React, { ReactNode, HTMLAttributes } from 'react';
 import { createComponent } from '../lib';
-import type { JSX } from '@vime/core/dist/types';
+import type { JSX } from '@viplayer/core/dist/types';
 ${importAllDepdencies(cmpMeta, components)}
 ${defineAllDependencies(cmpMeta, components)}
 

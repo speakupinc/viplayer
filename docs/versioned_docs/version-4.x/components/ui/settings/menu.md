@@ -57,7 +57,7 @@ values={[
 
 ```tsx {2,20-28}
 import React, { useState } from "react";
-import { VimePlayer, VimeUi, VimeMenu } from "@vime/react";
+import { VimePlayer, VimeUi, VimeMenu } from "@viplayer/react";
 
 function Example() {
   const [isMenuActive, setIsMenuActive] = useState(false);
@@ -114,7 +114,7 @@ function Example() {
 </template>
 
 <script>
-  import { VimePlayer, VimeUi, VimeMenu } from '@vime/vue';
+  import { VimePlayer, VimeUi, VimeMenu } from '@viplayer/vue';
 
   export default {
     components: {
@@ -162,7 +162,7 @@ function Example() {
 
 ```html {2}
 <script lang="ts">
-  import { VimePlayer, VimeUi, VimeMenu } from '@vime/svelte';
+  import { VimePlayer, VimeUi, VimeMenu } from '@viplayer/svelte';
 
   let isMenuActive = false;
 

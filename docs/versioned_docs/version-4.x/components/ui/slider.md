@@ -53,7 +53,7 @@ values={[
 
 ```tsx {2,12-18}
 import React, { useState } from 'react';
-import { VimeSlider } from '@vime/react';
+import { VimeSlider } from '@viplayer/react';
 
 function Example() {
   const [value, setValue] = useState(50);
@@ -90,7 +90,7 @@ function Example() {
 </template>
 
 <script>
-  import { VimeSlider } from '@vime/vue';
+  import { VimeSlider } from '@viplayer/vue';
 
   export default {
     components: {
@@ -124,7 +124,7 @@ function Example() {
 
 ```html {2}
 <script lang="ts">
-  import { VimeSlider } from '@vime/svelte';
+  import { VimeSlider } from '@viplayer/svelte';
 
   let value = 50;
 

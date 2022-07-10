@@ -8,7 +8,7 @@
 
 <script lang="ts">
 import { defineComponent, ref, watch } from 'vue';
-import { usePlayer, usePlayerContext } from '@vime/vue-next';
+import { usePlayer, usePlayerContext } from '@viplayer/vue-next';
 
 export default defineComponent({
   name: 'TapSidesToSeek',

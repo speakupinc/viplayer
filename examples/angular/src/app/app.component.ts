@@ -1,5 +1,5 @@
 import { Component, ViewChild } from '@angular/core';
-import { Player } from '@vime/angular';
+import { Player } from '@viplayer/angular';
 
 @Component({
   selector: 'app-root',

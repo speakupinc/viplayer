@@ -1,6 +1,6 @@
 ```tsx {2,11-17}
 import React from 'react';
-import { Embed } from '@vime/react';
+import { Embed } from '@viplayer/react';
 
 function Example() {
   const onMessage = (event: CustomEvent<any>) => {

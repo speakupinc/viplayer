@@ -2,6 +2,6 @@
 <CurrentTime />
 
 <script lang="ts">
-  import { CurrentTime } from '@vime/svelte';
+  import { CurrentTime } from '@viplayer/svelte';
 </script>
 ```

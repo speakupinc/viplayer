@@ -9,7 +9,7 @@ import {
   Dash as VmDash,
   Hls as VmHls,
   Audio as VmAudio,
-} from '@vime/react';
+} from '@viplayer/react';
 
 const poster = 'https://media.vimejs.com/poster.png';
 

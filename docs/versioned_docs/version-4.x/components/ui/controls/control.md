@@ -61,7 +61,7 @@ import {
   VimeIcon,
   VimeTooltip,
   usePlayerContext,
-} from '@vime/react';
+} from '@viplayer/react';
 
 function PlaybackControl() {
   const ref = useRef(null);
@@ -115,7 +115,7 @@ function PlaybackControl() {
     VimeControl,
     VimeIcon,
     VimeTooltip,
-  } from '@vime/vue';
+  } from '@viplayer/vue';
 
   export default {
     mixins: [VimeMixin(['paused', 'i18n'])]
@@ -171,7 +171,7 @@ function PlaybackControl() {
     VimeControl,
     VimeIcon,
     VimeTooltip,
-  } from '@vime/vue-next';
+  } from '@viplayer/vue-next';
 
   export default defineComponent({
     name: 'PlaybackControl',
@@ -228,7 +228,7 @@ function PlaybackControl() {
     VimeControl,
     VimeIcon,
     VimeTooltip,
-  } from '@vime/svelte';
+  } from '@viplayer/svelte';
 
   let ref: VimeControl;
 
@@ -254,7 +254,7 @@ import {
   createDispatcher,
   PlayerProps,
   withPlayerContext,
-} from '@vime/core';
+} from '@viplayer/core';
 
 @Component({
   tag: 'playback-control',
@@ -318,7 +318,7 @@ withPlayerContext(PlaybackControl, ['paused', 'i18n']);
 
 ```ts title="playback-control.ts"
 import { Component, ElementRef } from '@angular/core';
-import { VimeComponent } from '@vime/angular';
+import { VimeComponent } from '@viplayer/angular';
 
 @Component({
   selector: 'playback-control',

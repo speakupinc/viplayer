@@ -1,6 +1,6 @@
 ```tsx {2,20-28}
 import React, { useState } from "react";
-import { Player, Ui, Menu } from "@vime/react";
+import { Player, Ui, Menu } from "@viplayer/react";
 
 function Example() {
   const [isMenuActive, setIsMenuActive] = useState(false);

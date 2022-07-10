@@ -19,7 +19,7 @@ export const generateVueNextComponent = (
 ${ignoreChecks()}
 import { defineComponent } from 'vue';
 import { method, render } from '../lib';
-import type { JSX, Components } from '@vime/core/dist/types';
+import type { JSX, Components } from '@viplayer/core/dist/types';
 ${importAllDepdencies(cmpMeta, components)}
 ${defineAllDependencies(cmpMeta, components)}
 

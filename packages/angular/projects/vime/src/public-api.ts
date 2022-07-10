@@ -11,7 +11,7 @@ export {
   AdapterHost,
   MediaProviderAdapter,
   watchComponentRegistry,
-} from '@vime/core';
+} from '@viplayer/core';
 
 export * from './components';
 export * from './VimeComponent';

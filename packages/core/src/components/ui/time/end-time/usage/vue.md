@@ -4,7 +4,7 @@
 </template>
 
 <script>
-  import { EndTime } from '@vime/vue';
+  import { EndTime } from '@viplayer/vue';
 
   export default {
     components: {

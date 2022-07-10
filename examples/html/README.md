@@ -1,6 +1,6 @@
-# @vime/html-example
+# @viplayer/html-example
 
-This example demonstrates how to setup Vime with HTML via the `@vime/core` package. See [`index.html`](./index.html).
+This example demonstrates how to setup Vime with HTML via the `@viplayer/core` package. See [`index.html`](./index.html).
 
 ## Usage
 

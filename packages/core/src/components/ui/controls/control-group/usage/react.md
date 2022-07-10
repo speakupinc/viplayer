@@ -8,7 +8,7 @@ import {
   ScrubberControl,
   PlaybackControl,
   VolumeControl,
-} from '@vime/react';
+} from '@viplayer/react';
 
 function Example() {
   return (

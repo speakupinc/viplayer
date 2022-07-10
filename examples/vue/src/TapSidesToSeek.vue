@@ -8,7 +8,7 @@
 
 <script lang="ts">
 import { Component, Vue, Watch } from 'vue-property-decorator';
-import { Mixin } from '@vime/vue';
+import { Mixin } from '@viplayer/vue';
 
 @Component({
   /**

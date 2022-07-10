@@ -1,5 +1,5 @@
 import React from 'react';
-import { Player, Hls, DefaultUi } from '@vime/react';
+import { Player, Hls, DefaultUi } from '@viplayer/react';
 
 const IntroPlayer = () => (
   <Player>

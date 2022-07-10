@@ -7,7 +7,7 @@ import {
   Dispatcher,
   PlayerProps,
   withPlayerContext,
-} from '@vime/core';
+} from '@viplayer/core';
 
 @Component({
   tag: 'tap-sides-to-seek',

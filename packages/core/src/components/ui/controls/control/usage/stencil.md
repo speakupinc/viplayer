@@ -5,7 +5,7 @@ import {
   createDispatcher,
   PlayerProps,
   withPlayerContext,
-} from '@vime/core';
+} from '@viplayer/core';
 
 @Component({
   tag: 'playback-control',

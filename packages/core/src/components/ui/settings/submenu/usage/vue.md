@@ -14,7 +14,7 @@
 </template>
 
 <script>
-  import { Player, Ui, Settings, Submenu } from '@vime/vue';
+  import { Player, Ui, Settings, Submenu } from '@viplayer/vue';
 
   export default {
     components: {

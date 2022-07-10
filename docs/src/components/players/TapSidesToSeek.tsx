@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import { usePlayerContext } from '@vime/react';
+import { usePlayerContext } from '@viplayer/react';
 // @ts-ignore
 import styles from './TapSidesToSeek.module.css';
 

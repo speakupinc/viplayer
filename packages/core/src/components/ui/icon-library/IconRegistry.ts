@@ -12,7 +12,7 @@ export type IconLibraryResolver = (name: string) => string;
 export const ICONS_BASE_CDN_URL =
   process.env.NODE_ENV === 'development'
     ? '/icons'
-    : 'https://cdn.jsdelivr.net/npm/@vime/core@latest/icons';
+    : 'https://cdn.jsdelivr.net/npm/@viplayer/core@latest/icons';
 
 const registry = new Map<string, IconLibraryResolver>(
   Object.entries({

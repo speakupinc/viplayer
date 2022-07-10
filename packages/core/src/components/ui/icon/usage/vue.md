@@ -10,7 +10,7 @@
 </template>
 
 <script>
-  import { Icon } from '@vime/vue';
+  import { Icon } from '@viplayer/vue';
 
   export default {
     components: {

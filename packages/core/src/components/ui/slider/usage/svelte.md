@@ -10,7 +10,7 @@
 
 ```html {2}
 <script lang="ts">
-  import { Slider } from '@vime/svelte';
+  import { Slider } from '@viplayer/svelte';
 
   let value = 50;
 

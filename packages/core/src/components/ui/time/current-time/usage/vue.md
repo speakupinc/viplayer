@@ -4,7 +4,7 @@
 </template>
 
 <script>
-  import { CurrentTime } from '@vime/vue';
+  import { CurrentTime } from '@viplayer/vue';
 
   export default {
     components: {

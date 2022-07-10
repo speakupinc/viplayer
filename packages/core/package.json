@@ -1,6 +1,6 @@
 {
-  "name": "@vime/core",
-  "version": "5.3.1",
+  "name": "@viplayer/core",
+  "version": "5.3.101",
   "description": "Customizable, extensible, accessible and framework agnostic media player.",
   "license": "MIT",
   "sideEffects": false,
@@ -44,7 +44,8 @@
     "@types/fscreen": "^1.0.1",
     "fscreen": "^1.2.0",
     "mitt": "^3.0.0",
-    "stencil-wormhole": "^3.4.1"
+    "stencil-wormhole": "^3.4.1",
+    "typescript": "^4.7.4"
   },
   "devDependencies": {
     "@types/node": "^16.10.3",

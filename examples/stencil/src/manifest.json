@@ -1,6 +1,6 @@
 {
-  "name": "@vime/stencil-example",
-  "short_name": "@vime/stencil-example",
+  "name": "@viplayer/stencil-example",
+  "short_name": "@viplayer/stencil-example",
   "start_url": "/",
   "display": "standalone",
   "icons": [

@@ -1,6 +1,6 @@
 ```tsx {2,11}
 import React from 'react';
-import { Player, Ui, Controls, PipControl } from '@vime/react';
+import { Player, Ui, Controls, PipControl } from '@viplayer/react';
 
 function Example() {
   return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Player, Video, DefaultUi, DefaultControls } from '@vime/react';
+import { Player, Video, DefaultUi, DefaultControls } from '@viplayer/react';
 
 const DefaultControlsPlayer = () => (
   <Player>

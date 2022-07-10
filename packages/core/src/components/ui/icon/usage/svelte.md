@@ -6,6 +6,6 @@
 <Icon name="pause" library="material" label="Pause" />
 
 <script lang="ts">
-  import { Icon } from '@vime/svelte';
+  import { Icon } from '@viplayer/svelte';
 <script>
 ```

@@ -58,7 +58,7 @@ import {
   VimeUi,
   VimeControls,
   VimeCaptionControl,
-} from '@vime/react';
+} from '@viplayer/react';
 
 function Example() {
   return (
@@ -98,7 +98,7 @@ function Example() {
     VimeUi,
     VimeControls,
     VimeCaptionControl,
-  } from '@vime/vue';
+  } from '@viplayer/vue';
 
   export default {
     components: {
@@ -132,7 +132,7 @@ function Example() {
     VimeUi,
     VimeClickToPlay,
     VimeCaptionControl,
-  } from '@vime/svelte';
+  } from '@viplayer/svelte';
 </script>
 ```
 

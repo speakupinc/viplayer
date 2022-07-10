@@ -12,7 +12,7 @@
     Control,
     Icon,
     Tooltip,
-  } from '@vime/vue';
+  } from '@viplayer/vue';
 
   export default {
     mixins: [Mixin(['paused', 'i18n'])]

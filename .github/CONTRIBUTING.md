@@ -62,10 +62,10 @@ from the project root.
 $: pnpm install
 
 # Install dependency for a single package.
-$: pnpm install typescript --filter @vime/core
+$: pnpm install typescript --filter @viplayer/core
 
 # Update a dependency for a single package.
-$: pnpm up typescript@4.4.0 --filter @vime/core
+$: pnpm up typescript@4.4.0 --filter @viplayer/core
 
 # Update a dependency for all packages.
 $: pnpm up typescript@4.4.0 -r
@@ -109,7 +109,7 @@ applications locally. It's safe to include anything inside of this directory as 
 by Git.
 
 We can quickly scaffold applications for local development via the `pnpm sandbox:create` command
-which can also handle symlinking the `@vime/*` packages.
+which can also handle symlinking the `@viplayer/*` packages.
 
 > We're using either NPM or Yarn in the example below because, Vime uses a PNPM workspace which
 > will only get in the way when running commands inside the sandbox.
@@ -167,13 +167,13 @@ changelogs and releases. Simply refer to the link, and also see existing commits
 of how to write your message.
 
 If you've made changes to a specific package, simply include the package name without the
-`@vime` prefix in the commit scope (see example below).
+`@viplayer` prefix in the commit scope (see example below).
 
 ```bash
 # Commit general changes.
 $: git commit -m 'chore: your commit message'
 
-# Commit changes made to a specific package (eg: @vime/core).
+# Commit changes made to a specific package (eg: @viplayer/core).
 $: git commit -m 'fix(core): your commit message identifying fix'
 ```
 

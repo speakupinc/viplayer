@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { usePlayerStore } from "@vime/svelte";
+  import { usePlayerStore } from "@viplayer/svelte";
 
   /**
    * We need a reference to a DOM element so the store works as it relies on dispatching 

@@ -12,7 +12,7 @@ Providers are loaded via the `providers` prop.
 
 ```js
 // All providers are named {ProviderName}Provider.
-import { Player, FileProvider, YouTubeProvider } from '@vime-js/complete';
+import { Player, FileProvider, YouTubeProvider } from '@viplayer-js/complete';
 
 // ...
 
@@ -34,7 +34,7 @@ Plugins are loaded via the `plugins` prop, see the plugins [getting started](../
 page for more information.
 
 ```js
-import { Player, Boot } from '@vime-js/complete';
+import { Player, Boot } from '@viplayer-js/complete';
 
 // ...
 
@@ -56,7 +56,7 @@ Icons are set via the `icons` prop.
 You can load the default Vime icons by using the `Icons` plugin.
 
 ```js
-import { Icons } from '@vime-js/complete';
+import { Icons } from '@viplayer-js/complete';
 
 // If you're using the Boot plugin, it already loads this for you.
 player.plugins = [Icons];

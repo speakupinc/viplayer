@@ -19,7 +19,7 @@ values={[
 <TabItem value="js">
 
 ```js
-import { Player, YouTubeProvider } from '@vime-js/lite';
+import { Player, YouTubeProvider } from '@viplayer-js/lite';
 
 const target = document.getElementById('player-target');
 
@@ -72,7 +72,7 @@ player.$destroy();
 
 <script>
   import { onMount } from 'svelte';
-  import { Player, YouTubeProvider } from '@vime-js/lite';
+  import { Player, YouTubeProvider } from '@viplayer-js/lite';
 
   let player;
 
@@ -121,7 +121,7 @@ values={[
 <TabItem value="js">
 
 ```js
-import { Player, VimeoProvider } from '@vime-js/lite';
+import { Player, VimeoProvider } from '@viplayer-js/lite';
 
 const target = document.getElementById('player-target');
 
@@ -192,7 +192,7 @@ player.$destroy();
 
 <script>
   import { onMount } from 'svelte';
-  import { Player, VimeoProvider } from '@vime-js/lite';
+  import { Player, VimeoProvider } from '@viplayer-js/lite';
 
   let player;
 
@@ -267,7 +267,7 @@ values={[
 <TabItem value="js">
 
 ```js
-import { Player, DailymotionProvider } from '@vime-js/lite';
+import { Player, DailymotionProvider } from '@viplayer-js/lite';
 
 const target = document.getElementById('player-target');
 
@@ -323,7 +323,7 @@ player.$destroy();
 
 <script>
   import { onMount } from 'svelte';
-  import { Player, DailymotionProvider } from '@vime-js/lite';
+  import { Player, DailymotionProvider } from '@viplayer-js/lite';
 
   let player;
 

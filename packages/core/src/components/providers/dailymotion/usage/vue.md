@@ -7,7 +7,7 @@
 </template>
 
 <script>
-  import { Player, Dailymotion } from '@vime/vue';
+  import { Player, Dailymotion } from '@viplayer/vue';
 
   export default {
     components: {

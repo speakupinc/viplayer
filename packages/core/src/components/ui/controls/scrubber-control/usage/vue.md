@@ -12,7 +12,7 @@
 </template>
 
 <script>
-  import { Player, Ui, Controls, ScrubberControl } from '@vime/vue';
+  import { Player, Ui, Controls, ScrubberControl } from '@viplayer/vue';
 
   export default {
     components: {

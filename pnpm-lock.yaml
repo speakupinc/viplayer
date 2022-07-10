@@ -1,4 +1,4 @@
-lockfileVersion: 5.3
+lockfileVersion: 5.4
 
 importers:
 
@@ -58,7 +58,7 @@ importers:
       '@angular/core': v11-lts
       '@angular/platform-browser': v11-lts
       '@angular/platform-browser-dynamic': v11-lts
-      '@vime/core': workspace:*
+      '@viplayer/core': workspace:*
       ng-packagr: ^11.0.0
       npm-run-all: ^4.1.5
       rimraf: ^3.0.2
@@ -75,7 +75,7 @@ importers:
       '@angular/core': 11.2.14_rxjs@6.6.7+zone.js@0.10.3
       '@angular/platform-browser': 11.2.14_fdd764655c71a68a8cf886ddd9a243b9
       '@angular/platform-browser-dynamic': 11.2.14_85d62dd5beb851f0d1c066e080f8fa0d
-      '@vime/core': link:../core
+      '@viplayer/core': link:../core
       ng-packagr: 11.2.4_246f8f2707d20d38e3365923f86631a9
       npm-run-all: 4.1.5
       rimraf: 3.0.2
@@ -97,16 +97,18 @@ importers:
       rimraf: ^3.0.2
       stencil-wormhole: ^3.4.1
       svelte: ^3.43.1
+      typescript: ^4.7.4
     dependencies:
       '@stencil/core': 2.5.2
       '@types/fscreen': 1.0.1
       fscreen: 1.2.0
       mitt: 3.0.0
       stencil-wormhole: 3.4.1
+      typescript: 4.7.4
     devDependencies:
       '@types/node': 16.11.9
       clean-css-cli: 5.4.2
-      hls.js: 1.1.1
+      hls.js: 1.1.5
       npm-run-all: 4.1.5
       rimraf: 3.0.2
       svelte: 3.44.2
@@ -116,7 +118,7 @@ importers:
       '@seznam/compose-react-refs': ^1.0.4
       '@types/react': ^17.0.14
       '@types/react-dom': ^17.0.9
-      '@vime/core': workspace:*
+      '@viplayer/core': workspace:*
       npm-run-all: ^4.1.5
       react: ^17.0.2
       react-dom: ^17.0.2
@@ -127,7 +129,7 @@ importers:
     devDependencies:
       '@types/react': 17.0.35
       '@types/react-dom': 17.0.11
-      '@vime/core': link:../core
+      '@viplayer/core': link:../core
       npm-run-all: 4.1.5
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
@@ -136,13 +138,13 @@ importers:
 
   packages/svelte:
     specifiers:
-      '@vime/core': workspace:*
+      '@viplayer/core': workspace:*
       npm-run-all: ^4.1.5
       rimraf: ^3.0.2
       svelte: ^3.24.1
       typescript: ^4.0.2
     devDependencies:
-      '@vime/core': link:../core
+      '@viplayer/core': link:../core
       npm-run-all: 4.1.5
       rimraf: 3.0.2
       svelte: 3.44.2
@@ -150,13 +152,13 @@ importers:
 
   packages/vue:
     specifiers:
-      '@vime/core': workspace:*
+      '@viplayer/core': workspace:*
       npm-run-all: ^4.1.5
       rimraf: ^3.0.2
       typescript: ^4.0.2
       vue: ^2.6.11
     devDependencies:
-      '@vime/core': link:../core
+      '@viplayer/core': link:../core
       npm-run-all: 4.1.5
       rimraf: 3.0.2
       typescript: 4.5.2
@@ -164,13 +166,13 @@ importers:
 
   packages/vue-next:
     specifiers:
-      '@vime/core': workspace:*
+      '@viplayer/core': workspace:*
       npm-run-all: ^4.1.5
       rimraf: ^3.0.2
       typescript: ^4.0.2
       vue: ^3.0.0
     devDependencies:
-      '@vime/core': link:../core
+      '@viplayer/core': link:../core
       npm-run-all: 4.1.5
       rimraf: 3.0.2
       typescript: 4.5.2
@@ -5348,8 +5350,8 @@ packages:
     resolution: {integrity: sha512-l9sfDFsuqtOqKDsQdqrMRk0U85RZc0RtOR9yPI7mRVOa4FsR/BVnZ0shmQRM96Ji99kYZP/7hn1cedc1+ApsTQ==}
     dev: true
 
-  /hls.js/1.1.1:
-    resolution: {integrity: sha512-2VEVzO/gr5LOD6K/DEmBkKEary6hr4YZ/SLb0PV81jOAM/Tl9DviL0sFMoUHDq05/j4OZxIj691Zo0p40u3Gtw==}
+  /hls.js/1.1.5:
+    resolution: {integrity: sha512-mQX5TSNtJEzGo5HPpvcQgCu+BWoKDQM6YYtg/KbgWkmVAcqOCvSTi0SuqG2ZJLXxIzdnFcKU2z7Mrw/YQWhPOA==}
     dev: true
 
   /hmac-drbg/1.0.1:
@@ -10301,6 +10303,12 @@ packages:
     engines: {node: '>=4.2.0'}
     hasBin: true
     dev: true
+
+  /typescript/4.7.4:
+    resolution: {integrity: sha512-C0WQT0gezHuw6AdY1M2jxUO83Rjf0HP7Sk1DtXj6j1EwkQNZrHAg2XPWlq62oqEhYvONq5pkC2Y9oPljWToLmQ==}
+    engines: {node: '>=4.2.0'}
+    hasBin: true
+    dev: false
 
   /uglify-js/3.14.3:
     resolution: {integrity: sha512-mic3aOdiq01DuSVx0TseaEzMIVqebMZ0Z3vaeDhFEh9bsc24hV1TFvN74reA2vs08D0ZWfNjAcJ3UbVLaBss+g==}

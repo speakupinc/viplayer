@@ -12,10 +12,10 @@ sidebar_label: Install
 The Complete Player is Vime's greatest offering. It enables complete customization of the player. If you'd like to
 know what features it includes and how it compares to other options then see the [getting started](../welcome/getting-started.md) page.
 
-[package]: https://www.npmjs.com/package/@vime-js/complete
-[version-badge]: https://img.shields.io/npm/v/@vime-js/complete?style=flat-square
-[size]: https://bundlephobia.com/result?p=@vime-js/complete
-[size-badge]: https://img.shields.io/bundlephobia/minzip/@vime-js/complete?label=min%2Bgzip&style=flat-square
+[package]: https://www.npmjs.com/package/@viplayer-js/complete
+[version-badge]: https://img.shields.io/npm/v/@viplayer-js/complete?style=flat-square
+[size]: https://bundlephobia.com/result?p=@viplayer-js/complete
+[size-badge]: https://img.shields.io/bundlephobia/minzip/@viplayer-js/complete?label=min%2Bgzip&style=flat-square
 [license]: https://github.com/vime-js/vime/blob/master/LICENSE
 [license-badge]: https://img.shields.io/github/license/vime-js/vime?color=blue&style=flat-square
 [tweet]: https://twitter.com/intent/tweet?text=Check%20out%20Vime%20%28https%3A%2F%2Fgithub.com%2Fvime-js%2Fvime%29%2C%20it%20makes%20embedding%20and%20using%20media%20players%20for%20the%20web%20simple.%20It%20supports%20Html5%2C%20YouTube%2C%20Dailymotion%2C%20Vimeo%20and%20more%20to%20come%21
@@ -40,7 +40,7 @@ values={[
 <TabItem value="npm">
 
 ```
-npm install @vime-js/complete
+npm install @viplayer-js/complete
 ```
 
 </TabItem>
@@ -48,7 +48,7 @@ npm install @vime-js/complete
 <TabItem value="yarn">
 
 ```
-yarn add @vime-js/complete
+yarn add @viplayer-js/complete
 ```
 
 </TabItem>
@@ -56,7 +56,7 @@ yarn add @vime-js/complete
 <TabItem value="jsdelivr">
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/@vime-js/complete"></script>
+<script src="https://cdn.jsdelivr.net/npm/@viplayer-js/complete"></script>
 ```
 
 </TabItem>
@@ -96,7 +96,7 @@ values={[
 <TabItem value="js">
 
 ```js
-import { Player, Boot, FileProvider } from '@vime-js/complete';
+import { Player, Boot, FileProvider } from '@viplayer-js/complete';
 
 const target = document.getElementById('player-target');
 
@@ -142,7 +142,7 @@ See the [client-side component API][svelte-client-api] for the complete set of c
 />
 
 <script>
-  import { Player, Boot, FileProvider } from '@vime-js/complete';
+  import { Player, Boot, FileProvider } from '@viplayer-js/complete';
 
   let player;
 

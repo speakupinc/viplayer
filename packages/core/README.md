@@ -1,6 +1,6 @@
-# @vime/core
+# @viplayer/core
 
-Vime is a customizable, extensible, accessible and framework agnostic media player. The `@vime/core`
+Vime is a customizable, extensible, accessible and framework agnostic media player. The `@viplayer/core`
 package contains all the core Vime web components that other packages rely on.
 
 ## Examples

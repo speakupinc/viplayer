@@ -1,7 +1,7 @@
-# @vime/svelte-example
+# @viplayer/svelte-example
 
 This example was bootstrapped using [`sveltejs/template-webpack`](https://github.com/sveltejs/template-webpack),
-and demonstrates how to setup Vime with Svelte via the `@vime/svelte` package. The main files to
+and demonstrates how to setup Vime with Svelte via the `@viplayer/svelte` package. The main files to
 look at are:
 
 - [`public/index.html`](./public/index.html): Shows how to load the default player themes.

@@ -67,7 +67,7 @@ values={[
 
 ```tsx {8-22} title="Player.tsx"
 import React from 'react';
-import { Player, Video } from '@vime/react';
+import { Player, Video } from '@viplayer/react';
 
 function Player() {
   return (
@@ -121,7 +121,7 @@ function Player() {
 </template>
 
 <script>
-  import { Player, Video } from '@vime/vue';
+  import { Player, Video } from '@viplayer/vue';
 
   export default {
     components: {
@@ -156,7 +156,7 @@ function Player() {
 </Player>
 
 <script lang="ts">
-  import { Player, Video } from '@vime/svelte';
+  import { Player, Video } from '@viplayer/svelte';
 </script>
 ```
 

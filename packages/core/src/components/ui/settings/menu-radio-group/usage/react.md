@@ -7,7 +7,7 @@ import {
   Submenu,
   MenuRadioGroup,
   MenuRadio,
-} from '@vime/react';
+} from '@viplayer/react';
 
 function Example() {
   const [value, setValue] = useState('1');

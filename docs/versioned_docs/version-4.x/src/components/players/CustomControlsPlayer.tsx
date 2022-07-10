@@ -9,7 +9,7 @@ import {
   MuteControl,
   PlaybackControl,
   TimeProgress,
-} from '@vime/react';
+} from '@viplayer/react';
 
 const CustomControlsPlayer = () => (
   <Player>

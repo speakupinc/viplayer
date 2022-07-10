@@ -1,6 +1,6 @@
 ```tsx {2,8,11}
 import React from 'react';
-import { Icon } from '@vime/react';
+import { Icon } from '@viplayer/react';
 
 function Example() {
   return (

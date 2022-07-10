@@ -5,7 +5,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [5.0.35](https://github.com/vime-js/vime/compare/v5.0.34...v5.0.35) (2021-11-05)
 
-**Note:** Version bump only for package @vime/rollup-example
+**Note:** Version bump only for package @viplayer/rollup-example
 
 
 

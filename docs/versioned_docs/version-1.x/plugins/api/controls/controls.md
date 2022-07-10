@@ -50,7 +50,7 @@ values={[
 <TabItem value="basic">
 
 ```js
-import { Player, Controls, DefaultControls } from '@vime-js/complete';
+import { Player, Controls, DefaultControls } from '@viplayer-js/complete';
 
 // ...
 
@@ -67,7 +67,7 @@ const player = new Player({
 <TabItem value="advanced">
 
 ```js
-import { Player, Controls, DefaultControls } from '@vime-js/complete';
+import { Player, Controls, DefaultControls } from '@viplayer-js/complete';
 
 // ...
 
@@ -92,7 +92,7 @@ import {
   PlaybackControl,
   VolumeControl,
   ScrubberControl,
-} from '@vime-js/complete';
+} from '@viplayer-js/complete';
 
 player.vControls.createGroup('lowerGroup').then(controlGroup => {
   /**

@@ -45,7 +45,7 @@ values={[
 <TabItem value="basic">
 
 ```js
-import { Player, Settings, DefaultSettings } from '@vime-js/complete';
+import { Player, Settings, DefaultSettings } from '@viplayer-js/complete';
 
 // ...
 
@@ -62,7 +62,7 @@ const player = new Player({
 <TabItem value="advanced">
 
 ```js
-import { Player, Settings, DefaultSettings } from '@vime-js/complete';
+import { Player, Settings, DefaultSettings } from '@viplayer-js/complete';
 
 // ...
 
@@ -83,7 +83,7 @@ player
 ### Create a Submenu
 
 ```js
-import { SelectSubmenu } from '@vime-js/complete';
+import { SelectSubmenu } from '@viplayer-js/complete';
 
 player.vSettings
   .createSubmenu('playbackRateMenu', SelectSubmenu)

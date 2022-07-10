@@ -13,10 +13,10 @@ The Standard Player is used to interact with a provider/embed through the [core 
 If you'd like to know what features it includes and how it compares to other options then see
 the [getting started](../welcome/getting-started.md) page.
 
-[package]: https://www.npmjs.com/package/@vime-js/standard
-[version-badge]: https://img.shields.io/npm/v/@vime-js/standard?style=flat-square
-[size]: https://bundlephobia.com/result?p=@vime-js/standard
-[size-badge]: https://img.shields.io/bundlephobia/minzip/@vime-js/standard?label=min%2Bgzip&style=flat-square
+[package]: https://www.npmjs.com/package/@viplayer-js/standard
+[version-badge]: https://img.shields.io/npm/v/@viplayer-js/standard?style=flat-square
+[size]: https://bundlephobia.com/result?p=@viplayer-js/standard
+[size-badge]: https://img.shields.io/bundlephobia/minzip/@viplayer-js/standard?label=min%2Bgzip&style=flat-square
 [license]: https://github.com/vime-js/vime/blob/master/LICENSE
 [license-badge]: https://img.shields.io/github/license/vime-js/vime?color=blue&style=flat-square
 [tweet]: https://twitter.com/intent/tweet?text=Check%20out%20Vime%20%28https%3A%2F%2Fgithub.com%2Fvime-js%2Fvime%29%2C%20it%20makes%20embedding%20and%20using%20media%20players%20for%20the%20web%20simple.%20It%20supports%20Html5%2C%20YouTube%2C%20Dailymotion%2C%20Vimeo%20and%20more%20to%20come%21
@@ -41,7 +41,7 @@ values={[
 <TabItem value="npm">
 
 ```
-npm install @vime-js/standard
+npm install @viplayer-js/standard
 ```
 
 </TabItem>
@@ -49,7 +49,7 @@ npm install @vime-js/standard
 <TabItem value="yarn">
 
 ```
-yarn add @vime-js/standard
+yarn add @viplayer-js/standard
 ```
 
 </TabItem>
@@ -57,7 +57,7 @@ yarn add @vime-js/standard
 <TabItem value="jsdelivr">
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/@vime-js/standard"></script>
+<script src="https://cdn.jsdelivr.net/npm/@viplayer-js/standard"></script>
 ```
 
 </TabItem>
@@ -98,7 +98,7 @@ values={[
 
 ```js
 // All providers are named {ProviderName}Provider.
-import { Player, FileProvider, YouTubeProvider } from '@vime-js/standard';
+import { Player, FileProvider, YouTubeProvider } from '@viplayer-js/standard';
 
 const target = document.getElementById('player-target');
 
@@ -134,7 +134,7 @@ See the [client-side component API][svelte-client-api] for the complete set of c
 <script>
   import { onMount } from 'svelte';
   // All providers are named {ProviderName}Provider.
-  import { Player, FileProvider, YouTubeProvider } from '@vime-js/standard';
+  import { Player, FileProvider, YouTubeProvider } from '@viplayer-js/standard';
 
   let player;
 

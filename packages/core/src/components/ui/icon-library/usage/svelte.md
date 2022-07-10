@@ -11,6 +11,6 @@
 
 ```html
 <script lang="ts">
-  import { Player, Ui, IconLibrary } from '@vime/svelte';
+  import { Player, Ui, IconLibrary } from '@viplayer/svelte';
 </script>
 ```

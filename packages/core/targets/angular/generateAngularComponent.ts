@@ -21,7 +21,7 @@ export const generateAngularComponent = (
 ${ignoreChecks()}
 import { ChangeDetectionStrategy, ChangeDetectorRef, Component, ElementRef, EventEmitter, NgZone } from '@angular/core';
 import { ProxyCmp, initOutputs } from '../lib';
-import type { JSX, Components } from '@vime/core/dist/types';
+import type { JSX, Components } from '@viplayer/core/dist/types';
 ${importAllDepdencies(cmpMeta, components)}
 
 const ${name}Inputs: string[] = [

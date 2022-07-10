@@ -65,7 +65,7 @@ import {
   VimeSubmenu,
   VimeMenuRadioGroup,
   VimeMenuRadio,
-} from '@vime/react';
+} from '@viplayer/react';
 
 function Example() {
   return (
@@ -119,7 +119,7 @@ function Example() {
     VimeSubmenu,
     VimeMenuRadioGroup,
     VimeMenuRadio,
-  } from '@vime/vue';
+  } from '@viplayer/vue';
 
   export default {
     components: {
@@ -163,7 +163,7 @@ function Example() {
     VimeSubmenu,
     VimeMenuRadioGroup,
     VimeMenuRadio,
-  } from '@vime/svelte';
+  } from '@viplayer/svelte';
 </script>
 ```
 

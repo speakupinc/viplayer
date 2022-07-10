@@ -41,7 +41,7 @@ values={[
 <TabItem value="basic">
 
 ```js
-import { Player, Icons } from '@vime-js/complete';
+import { Player, Icons } from '@viplayer-js/complete';
 
 // ...
 
@@ -58,7 +58,7 @@ const player = new Player({
 <TabItem value="advanced">
 
 ```js
-import { Player, Icons } from '@vime-js/complete';
+import { Player, Icons } from '@viplayer-js/complete';
 
 // ...
 

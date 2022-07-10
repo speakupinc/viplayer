@@ -43,7 +43,7 @@ values={[
 
 ```tsx {2,10}
 import React from 'react';
-import { VimePlayer, VimeUi, VimeIcons } from '@vime/react';
+import { VimePlayer, VimeUi, VimeIcons } from '@viplayer/react';
 
 function Example() {
   return (
@@ -74,7 +74,7 @@ function Example() {
 </template>
 
 <script>
-  import { VimePlayer, VimeUi, VimeIcons } from '@vime/vue';
+  import { VimePlayer, VimeUi, VimeIcons } from '@viplayer/vue';
 
   export default {
     components: {
@@ -100,7 +100,7 @@ function Example() {
 </VimePlayer>
 
 <script lang="ts">
-  import { VimePlayer, VimeUi, VimeIcons } from '@vime/svelte';
+  import { VimePlayer, VimeUi, VimeIcons } from '@viplayer/svelte';
 </script>
 ```
 
@@ -146,7 +146,7 @@ class Example {
 
 | Property | Attribute | Description                       | Type     | Default                                                             |
 | -------- | --------- | --------------------------------- | -------- | ------------------------------------------------------------------- |
-| `href`   | `href`    | The URL to an SVG sprite to load. | `string` | `'https://cdn.jsdelivr.net/npm/@vime/core@latest/icons/sprite.svg'` |
+| `href`   | `href`    | The URL to an SVG sprite to load. | `string` | `'https://cdn.jsdelivr.net/npm/@viplayer/core@latest/icons/sprite.svg'` |
 
 ## Dependencies
 

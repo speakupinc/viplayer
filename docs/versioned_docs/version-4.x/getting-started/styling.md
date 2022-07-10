@@ -153,4 +153,4 @@ documentation for any given component (sidebar on your left under the `Component
 to see what properties are available for changing icons.
 
 [vime-icons]: https://github.com/vime-js/vime/tree/icons
-[vime-icons-cdn]: https://cdn.jsdelivr.net/npm/@vime/core@latest/icons/sprite.svg
+[vime-icons-cdn]: https://cdn.jsdelivr.net/npm/@viplayer/core@latest/icons/sprite.svg

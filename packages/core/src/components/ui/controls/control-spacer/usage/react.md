@@ -8,7 +8,7 @@ import {
   VolumeControl,
   ControlSpacer,
   FullscreenControl,
-} from '@vime/react';
+} from '@viplayer/react';
 
 function Example() {
   return (

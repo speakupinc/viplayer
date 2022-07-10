@@ -12,10 +12,10 @@ sidebar_label: Install
 The Lite Player is used to embed media content. If you'd like to know what features it includes and how it
 compares to other options then see the [getting started](../welcome/getting-started.md) page.
 
-[package]: https://www.npmjs.com/package/@vime-js/lite
-[version-badge]: https://img.shields.io/npm/v/@vime-js/lite?style=flat-square
-[size]: https://bundlephobia.com/result?p=@vime-js/lite
-[size-badge]: https://img.shields.io/bundlephobia/minzip/@vime-js/lite?label=min%2Bgzip&style=flat-square
+[package]: https://www.npmjs.com/package/@viplayer-js/lite
+[version-badge]: https://img.shields.io/npm/v/@viplayer-js/lite?style=flat-square
+[size]: https://bundlephobia.com/result?p=@viplayer-js/lite
+[size-badge]: https://img.shields.io/bundlephobia/minzip/@viplayer-js/lite?label=min%2Bgzip&style=flat-square
 [license]: https://github.com/vime-js/vime/blob/master/LICENSE
 [license-badge]: https://img.shields.io/github/license/vime-js/vime?color=blue&style=flat-square
 [tweet]: https://twitter.com/intent/tweet?text=Check%20out%20Vime%20%28https%3A%2F%2Fgithub.com%2Fvime-js%2Fvime%29%2C%20it%20makes%20embedding%20and%20using%20media%20players%20for%20the%20web%20simple.%20It%20supports%20Html5%2C%20YouTube%2C%20Dailymotion%2C%20Vimeo%20and%20more%20to%20come%21
@@ -40,7 +40,7 @@ values={[
 <TabItem value="npm">
 
 ```
-npm install @vime-js/lite
+npm install @viplayer-js/lite
 ```
 
 </TabItem>
@@ -48,7 +48,7 @@ npm install @vime-js/lite
 <TabItem value="yarn">
 
 ```
-yarn add @vime-js/lite
+yarn add @viplayer-js/lite
 ```
 
 </TabItem>
@@ -56,7 +56,7 @@ yarn add @vime-js/lite
 <TabItem value="jsdelivr">
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/@vime-js/lite"></script>
+<script src="https://cdn.jsdelivr.net/npm/@viplayer-js/lite"></script>
 ```
 
 </TabItem>
@@ -96,7 +96,7 @@ values={[
 <TabItem value="js">
 
 ```js
-import { Player } from '@vime-js/lite';
+import { Player } from '@viplayer-js/lite';
 
 const target = document.getElementById('player-target');
 
@@ -128,7 +128,7 @@ See the [client-side component API][svelte-client-api] for the complete set of c
 
 <script>
   import { onMount } from 'svelte';
-  import { Player } from '@vime-js/lite';
+  import { Player } from '@viplayer-js/lite';
 
   let player;
 

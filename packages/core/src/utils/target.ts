@@ -79,7 +79,7 @@ export const importAllDepdencies = (
   return `
 import { 
   ${[...deps.map(i => i.className)].join(',\n  ')} 
-} from '@vime/core';
+} from '@viplayer/core';
 
 import { define } from '../lib';
   `;

@@ -50,7 +50,7 @@ export const svelteOutputTarget = (
           filePath,
           [
             ignoreChecks(),
-            "import { Components, JSX } from '@vime/core';\n",
+            "import { Components, JSX } from '@viplayer/core';\n",
             generateSvelteTypings(meta),
             replaceSvelteMethodDefs(meta, generate$$TypeDefs(meta, content)),
           ].join('\n'),

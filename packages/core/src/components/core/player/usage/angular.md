@@ -17,7 +17,7 @@
 
 ```ts title="example.ts"
 import { ViewChild } from '@angular/core';
-import { Player } from '@vime/angular';
+import { Player } from '@viplayer/angular';
 
 class Example {
   @ViewChild('player') player!: Player;

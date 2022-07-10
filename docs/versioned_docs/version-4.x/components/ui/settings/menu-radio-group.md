@@ -65,7 +65,7 @@ import {
   VimeSubmenu,
   VimeMenuRadioGroup,
   VimeMenuRadio,
-} from '@vime/react';
+} from '@viplayer/react';
 
 function Example() {
   const [value, setValue] = useState('1');
@@ -126,7 +126,7 @@ function Example() {
     VimeSubmenu,
     VimeMenuRadioGroup,
     VimeMenuRadio,
-  } from "@vime/vue";
+  } from "@viplayer/vue";
 
   export default {
     components: {
@@ -181,7 +181,7 @@ function Example() {
     VimeSubmenu,
     VimeMenuRadioGroup,
     VimeMenuRadio,
-  } from '@vime/svelte';
+  } from '@viplayer/svelte';
 
   let value = '1';
 
@@ -253,7 +253,7 @@ class Example {
 ```
 
 ```ts title="example.ts"
-import { VimeMenuRadio } from '@vime/angular';
+import { VimeMenuRadio } from '@viplayer/angular';
 
 class Example {
   value = '1';

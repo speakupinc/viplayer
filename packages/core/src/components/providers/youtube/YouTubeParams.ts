@@ -35,7 +35,7 @@ export interface YouTubeParams extends Record<string, unknown> {
    * Setting the parameter's value to 1 causes closed captions to be shown by default, even if the
    * user has turned captions off. The default behavior is based on user preference.
    */
-  cc_load_policy?: 1;
+  cc_load_policy?: 0 | 1;
 
   /**
    * This parameter specifies the color that will be used in the player's video progress bar to

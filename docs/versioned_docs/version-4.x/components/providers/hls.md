@@ -43,7 +43,7 @@ values={[
 
 ```tsx {2,14-16}
 import React from 'react';
-import { VimePlayer, VimeHls } from '@vime/react';
+import { VimePlayer, VimeHls } from '@viplayer/react';
 
 function Example() {
   /**
@@ -79,7 +79,7 @@ function Example() {
 </template>
 
 <script>
-  import { VimePlayer, VimeHls } from '@vime/vue';
+  import { VimePlayer, VimeHls } from '@viplayer/vue';
 
   export default {
     components: {
@@ -112,7 +112,7 @@ function Example() {
 </VimePlayer>
 
 <script lang="ts">
-  import { VimePlayer, VimeHls } from '@vime/svelte';
+  import { VimePlayer, VimeHls } from '@viplayer/svelte';
 
   /**
    * @see https://hls-js.netlify.app/api-docs/file/src/config.ts.html.

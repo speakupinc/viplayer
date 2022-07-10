@@ -1,6 +1,6 @@
 ```tsx {2,31-43}
 import React, { useState, useRef } from 'react';
-import { Player, Ui } from '@vime/react';
+import { Player, Ui } from '@viplayer/react';
 
 function Example() {
   const player = useRef<HTMLVmPlayerElement>(null);

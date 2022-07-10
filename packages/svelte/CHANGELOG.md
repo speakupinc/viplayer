@@ -5,7 +5,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [5.0.35](https://github.com/vime-js/vime/compare/v5.0.34...v5.0.35) (2021-11-05)
 
-**Note:** Version bump only for package @vime/svelte
+**Note:** Version bump only for package @viplayer/svelte
 
 
 
@@ -24,8 +24,8 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [5.0.33](https://github.com/vime-js/vime/compare/v5.0.32...v5.0.33) (2021-07-12)
 
-**Note:** Version bump only for package @vime/svelte
+**Note:** Version bump only for package @viplayer/svelte
 
 ## [5.0.32](https://github.com/vime-js/vime/compare/v5.0.31...v5.0.32) (2021-07-12)
 
-**Note:** Version bump only for package @vime/svelte
+**Note:** Version bump only for package @viplayer/svelte

@@ -22,7 +22,7 @@
 </template>
 
 <script>
-  import { Player, Video } from '@vime/vue';
+  import { Player, Video } from '@viplayer/vue';
 
   export default {
     components: {

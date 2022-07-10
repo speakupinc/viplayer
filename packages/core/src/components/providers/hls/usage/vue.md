@@ -9,7 +9,7 @@
 </template>
 
 <script>
-  import { Player, Hls } from '@vime/vue';
+  import { Player, Hls } from '@viplayer/vue';
 
   export default {
     components: {

@@ -12,7 +12,7 @@
 </template>
 
 <script>
-  import { Player, Ui, Controls, CaptionControl } from '@vime/vue';
+  import { Player, Ui, Controls, CaptionControl } from '@viplayer/vue';
 
   export default {
     components: {

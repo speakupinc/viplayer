@@ -7,7 +7,7 @@
 </template>
 
 <script>
-  import { Player, DefaultUi } from '@vime/vue';
+  import { Player, DefaultUi } from '@viplayer/vue';
 
   export default {
     components: {

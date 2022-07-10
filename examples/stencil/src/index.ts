@@ -1,4 +1,4 @@
 import '@stencil/router';
-import '@vime/core';
+import '@viplayer/core';
 
 export { Components, JSX } from './components.d';

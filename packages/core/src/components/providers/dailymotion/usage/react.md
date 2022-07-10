@@ -1,6 +1,6 @@
 ```tsx {2,7}
 import React from 'react';
-import { Player, Dailymotion } from '@vime/react';
+import { Player, Dailymotion } from '@viplayer/react';
 
 function Example() {
   return (
