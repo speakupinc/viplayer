@@ -187,9 +187,8 @@ export class Embed implements ComponentInterface {
     return (
       <iframe
         id={this.id}
-        class="lazy"
         title={this.mediaTitle}
-        data-src={this.srcWithParams}
+        src={this.srcWithParams}
         allowFullScreen
         allow="autoplay; encrypted-media; picture-in-picture;"
         onLoad={this.onLoad.bind(this)}

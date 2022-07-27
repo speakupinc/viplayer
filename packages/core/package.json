@@ -1,6 +1,6 @@
 {
   "name": "@viplayer/core",
-  "version": "5.3.101",
+  "version": "5.3.108",
   "description": "Customizable, extensible, accessible and framework agnostic media player.",
   "license": "MIT",
   "sideEffects": false,
